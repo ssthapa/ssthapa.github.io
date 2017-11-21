@@ -35,7 +35,7 @@ img {
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	background: url(https://www.youtube.com/redirect?event=video_description&q=https%3A%2F%2Fstatic.pexels.com%2Fphotos%2F248159%2Fpexels-photo-248159.jpeg&redir_token=FCrulqvvQjb3yAVnU1fHBhwFqQl8MTUxMTIzMTM1M0AxNTExMTQ0OTUz&v=RMg6t7MjIt8) no-repeat 50% 50%;
+	background: url("../img/img3.jpeg") no-repeat 50% 50%;
 	background-size: cover;
 	display: table;
 	top: 0;
