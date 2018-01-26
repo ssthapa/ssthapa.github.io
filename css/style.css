@@ -224,6 +224,9 @@ footer.second p{
 	img{
 		padding: 2%;
 	}
+	.port-img{
+		width: 100%;
+	}
 	.one-third-port{
 		width: 96%;
 		margin: 0 auto;
@@ -233,7 +236,7 @@ footer.second p{
 		display: block;
 	}
 	.parallax{
-		display: none;
+		height: 22%;
 	}
 	.social i{
 		font-size: 170%;
