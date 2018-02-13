@@ -25,6 +25,10 @@ p {
 	text-align: center;
 	font-weight: 300;
 }
+
+.para{
+	text-indent: 6%;
+}
 img {
 	text-align: center;
 	max-width: 100%;
