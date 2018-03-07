@@ -15,6 +15,7 @@
 		<nav>
 			<a href="#" id="menu-icon"></a>
 			<ul>
+				<li><a href="index.html">Home</a></li>
 				<li><a href="#about">About Me</a></li>
 				<li><a href="#port">Portfolio</a> </li>
 				<li><a href="#serv">Services</a> </li>
@@ -37,17 +38,17 @@
 		<h2>About Me</h2>
 		<p class="para">Hi, my name is Sammi Thapa. I am a Front End Developer living in Doncaster. I create beautiful & functional websites. With every line of code, I strive to make the web a beautiful place.</p>
 	</section>
-
+<!-- 
 	<section class="sidebar">
 		<img src="https://static.pexels.com/photos/50567/girl-female-model-pretty-50567.jpeg">
-	</section>
+	</section> -->
 
 	<div class="clearfix"></div>
 	<a name="port">
 		<h2>My Portfolio</h2>
 		<p>Comming Soon...</p>
 		<section class="one-third-port">
-			<a  href="https://www.bounceback-health.co.uk/"><img class="port-img " id="first" src="img/bs.png"></a>
+			<a  href="https://www.bounceback-health.co.uk/"><img class="port-img " id="first" src="img/bbb.png"></a>
 		</section>
 		<section class="one-third-port">
 			<a href="img/2 2.jpeg"><img class="port-img" src="img/2 2.jpeg"></a>
@@ -62,7 +63,8 @@
 			<a href="img/5.jpeg"><img class="port-img" src="img/5.jpeg"></a>
 		</section>
 		<section class="one-third-port">
-			<a href="img/6 6.jpeg"><img class="port-img" src="img/6 6.jpeg"></a>
+			<a href="img/6 6.jpeg"><img class="port-img" src="img/6 6.jpeg">
+			</a>
 		</section>
 
 	<div class="clearfix"></div>
@@ -73,7 +75,7 @@
 		</section>
 		<section class="sidebar">
 			<section class="contact">
-				<p>Wedding Portraits, <span class="break"></span> Engagements, <span class="break"></span> Socical Events, <span class="break"></span> Artistic Modeling, <span class="break"></span> School Photos, <span class="break"></span> Family Portraits</p>
+				<p>HTML, <span class="break"></span> CSS, <span class="break"></span> Javascript, <span class="break"></span> PHP, <span class="break"></span> Wordpress, <span class="break"></span> bootstrap.</p>
 			</section>
 		</section>
 
@@ -97,7 +99,7 @@
 		</section>
 
 	<div class="clearfix"></div>
-
+<div id="map"></div>
 		<!-- Footer Links -->
 		<footer>
 			<ul class="social">
@@ -108,13 +110,30 @@
 			</ul>
 		</footer>
 
+		
+		
 		<!-- Footer -->
 		<footer class="second">
 			<p>&copy; Developer.</p>
 		</footer>
 
-		<!-- <script type="text/javascript" src="js/js.js"> -->
+		<!-- <script type="text/javascript" src="js/js.js"> </script>-->
 
+		<script type="text/javascript">
+		function initMap(){
+			var location = {lat: 53.5228, lng: -1.128462};
+			var map = new google.maps.Map(document.getElementById("map"), {
+				zoom: 13,
+				center: location
+			});
+			var marker = new google.maps.Marker({
+				position: location,
+				map: map
+			});
+		}
+		
 		</script>
+	  	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwjG-VP5X2AZmbZqIxZBojO2yUXuroT9c&callback=initMap"
+  		type="text/javascript"></script>
 </body>
 </html>

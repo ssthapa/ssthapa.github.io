@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway');
 
+*{
+	margin: 0;
+	padding: 0;
+	}
+#map{
+	height: 300px;
+	width: 100%;
+}
+
 html,body {
 	margin: 0;
 	padding: 0;
@@ -34,6 +43,7 @@ img {
 	max-width: 100%;
 	height: auto;
 	width: auto;
+	opacity: 0.80;
 }
 .intro {
 	height: 100%;
@@ -144,6 +154,14 @@ nav:hover ul{
 }
 #first{
 	max-height: 70%;
+	opacity: 1;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
 }
 .contact p{
 	text-align: center;
@@ -154,7 +172,7 @@ nav:hover ul{
 	text-decoration: none;
 }
 .break{
-	display: none;
+	display: block;
 }
 .clearfix{
 	clear: both;
@@ -170,6 +188,7 @@ nav:hover ul{
 .social{
 	list-style: none;
 	text-align: center;
+	padding-top: 7%;
 }
 .social li{
 	display: inline;
@@ -225,8 +244,71 @@ footer.second p{
 		margin-left: 0;
 	}
 	.sidebar{
-		width: 96%;
+		width: 40%;
 		margin: 0 auto;
+		text-align: center;
+	}
+	img{
+		padding: 2%;
+	}
+	.port-img{
+		width: 100%;
+	}
+	#first{
+		height: 80%;
+	}
+	.one-third-port{
+		width: 40%;
+		margin: 0 auto;
+		padding: 4%;
+	}
+	.break{
+		display: block;
+	}
+	.parallax{
+		height: 22%;
+	}
+	.social i{
+		font-size: 170%;
+	}
+}
+
+
+@media screen and (max-width: 490px){
+	#menu-icon{
+		margin: 26px 0 0 26px;
+	}
+	nav ul, nav:active ul{
+		padding: 8px 0;
+		left: 23px;
+		top: 34px;
+		width: 50%;
+	}
+	.inner{
+		font-size: 120%;
+	}
+	.content h1{
+		font-size: 180%;
+	}
+	p{
+		font-size: 120%;
+	}
+	h2{
+		font-size: 160%;
+	}
+	.left-col{
+		width: 96%;
+		margin: 0 0 3% 0;
+		padding: 0 2%;
+	}
+	.left-col p{
+		padding: 2%;
+		margin-left: 0;
+	}
+	.sidebar{
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
 	}
 	img{
 		padding: 2%;
