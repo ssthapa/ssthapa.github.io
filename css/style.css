@@ -142,6 +142,9 @@ nav:hover ul{
 .one-third-port img:hover{
 	opacity: .6;
 }
+#first{
+	max-height: 70%;
+}
 .contact p{
 	text-align: center;
 	letter-spacing: 5px;
@@ -230,6 +233,9 @@ footer.second p{
 	}
 	.port-img{
 		width: 100%;
+	}
+	#first{
+		height: 80%;
 	}
 	.one-third-port{
 		width: 96%;
